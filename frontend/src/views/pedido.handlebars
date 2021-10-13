@@ -1,0 +1,68 @@
+<div class="container-fluid; animate__animated animate__rubberBand" id="about" width="1100">
+    <div class="row bg-dark text-white p-5 text-center">
+        <p>
+        <div class="form-wrap">
+            <img src="http://drive.google.com/uc?export=view&id=1A012Mnz56YJLIjFD_2D_Gzdyq3aME2V6" alt="" width="1100"
+                class="animate__delay-2s animate__Bouncing entrances">
+        </div>
+        </p>
+    </div>
+</div>
+
+<div class="container-fluid; animate__animated animate__rubberBand" id="about" width="1100">
+    <div class="row bg-dark text-white p-5 text-center">
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("pedidoDetalle");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Buscar no. pedido" aria-label="Recipient's username"
+                aria-describedby="button-addon2">
+            <button class="btn btn-primary" type="button" id="button-addon2" onclick="myFunction()">Ver</button>
+        </div>
+
+        <div id="pedidoDetalle" style="display: none">
+
+            <p>
+            <div class="form-group">
+                <fieldset>
+                    <label class="form-label mt-4" for="readOnlyInput">No. Pedido</label>
+                    <input class="form-control" id="readOnlyInput" type="text" placeholder="Readonly input here..."
+                        readonly="">
+                </fieldset>
+            </div>
+            </p>
+
+            <p>
+            <div class="form-group">
+                <fieldset>
+                    <label class="form-label mt-4" for="readOnlyInput">Estado</label>
+                    <input class="form-control" id="readOnlyInput" type="text" placeholder="Readonly input here..."
+                        readonly="">
+                </fieldset>
+            </div>
+            </p>
+
+            <p>
+            <div class="form-group">
+                <fieldset>
+                    <label class="form-label mt-4" for="readOnlyInput">Detalle</label>
+                    <input class="form-control" id="readOnlyInput" type="text" placeholder="Readonly input here..."
+                        readonly="">
+                </fieldset>
+            </div>
+            </p>
+
+            <label>Nombre: <input type="text" id="nombre" name="nombre" readonly=""></label>
+            <label>Apellidos: <input type="text" id="apellidos" name="apellidos" readonly=""></label>
+
+        </div>
+
+    </div>
+</div>
